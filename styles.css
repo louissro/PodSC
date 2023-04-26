@@ -1,0 +1,93 @@
+:root{
+    --primary-text: #824101;
+    --secondary-text: #ac6620;
+    --primary-container-border: ##f4e9dc;
+    --misc-primary: #d5b392;
+    --misc-primary-border:#c59a6f;
+    --misc-secondary: #e4c2a3;
+    --misc-secondary-border: #C5A586;
+    --cardinal: #990000;
+}
+
+.primary-container{
+    background-color: #ffffff;
+    border: 2px solid #f4e9dc;
+}
+.secondary-container{
+    border: 1px solid #f1dfcb;
+    background-color: #eee3d6;
+}
+.save-color{
+    color: #ffffff;
+    color: #fffbf8;
+}
+#search-btn-div{
+    position:relative;
+}
+.bottom{
+    position:  absolute;
+    bottom: 0px;
+    margin-left: 20%;
+}
+.pod-img-div{
+    height:100px;
+    background-color: white;
+    text-align: center;
+}
+.pod-info-container{
+    padding:0px;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+}
+a {
+    all: unset;
+}
+.logo{
+    font-size:32px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing:1.5px;
+}
+.logo-USC{
+    color: var(--cardinal);
+}
+.btn-primary{
+    background-color: var(--misc-primary);
+    border-color: var(--misc-primary-border);
+}
+
+.btn-primary:hover{
+    background-color: var(--misc-secondary);
+    border-color: var(--misc-secondary-border);
+}
+.btn-danger{
+    background-color: var(--cardinal);
+    border-color: #830505;
+}
+
+.btn-danger:hover{
+    background-color: #830505;
+    border-color: var(--cardinal);
+}
+.navbar-nav .nav-link.active{
+    color: var(--primary-text);
+}
+.nav-link{
+    color: var(--secondary-text);
+    font-weight:500;
+}
+.nav-link:hover{
+    color: var(--primary-text);
+    font-weight:550;
+}
+section h2{
+    color: var(--primary-text); 
+}
+.card-title{
+    color: var(--secondary-text); 
+}
+label{
+    color: var(--secondary-text);
+    font-weight:450;
+}
